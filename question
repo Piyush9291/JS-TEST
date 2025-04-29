@@ -1,0 +1,99 @@
+// 🏆 7-Day Daily Coding Practice Plan (Fresher Special)
+// ✅ Day 1 (Easy Starter)
+// Check if number is even or odd.
+
+// Find the sum of all numbers in an array.
+
+// Find largest number in an array.
+
+// Reverse a string.
+
+// Swap two numbers without using third variable.
+
+// ✅ Day 2 (Flow Control & Loops)
+// Print numbers from 1 to 50 using loop.
+
+// Print all even numbers between 1 to 100.
+
+// Find factorial of a number.
+
+// Print a simple star triangle pattern:
+
+// markdown
+// Copy
+// Edit
+// *
+// **
+// ***
+// ****
+// *****
+// Find the smallest number in an array.
+
+// ✅ Day 3 (String & Array Basics)
+// Check if a string is a palindrome.
+
+// Reverse an array without using .reverse().
+
+// Count the number of vowels in a string.
+
+// Merge two arrays without using .concat().
+
+// Find the second largest number in an array.
+
+// ✅ Day 4 (Intermediate Logic)
+// Print the Fibonacci series up to n terms.
+
+// Print this star pattern:
+
+// markdown
+// Copy
+// Edit
+//     *
+//    ***
+//   *****
+//  *******
+// *********
+// Print numbers in reverse from 100 to 1.
+
+// Find sum of digits of a number.
+
+// Find the max and min in an array.
+
+// ✅ Day 5 (Functions & Basics)
+// Write a function to check prime number.
+
+// Write a function to reverse a string.
+
+// Write a function to find factorial.
+
+// Difference between function declaration and expression (theory + small example).
+
+// Use map(), filter(), forEach() once each on an array.
+
+// ✅ Day 6 (DOM + Basic JavaScript Theory)
+// Access an element using getElementById().
+
+// Change text of an HTML element using JavaScript.
+
+// Add a button click event listener.
+
+// Difference between == and ===.
+
+// What is hoisting? (with simple example)
+
+// ✅ Day 7 (Full Practice + Mini Mock Test)
+// Solve:
+
+// Print hollow square of stars.
+
+// Print pyramid pattern.
+
+// Find sum of array elements using forEach().
+
+// Theory quick revision:
+
+// What is a closure?
+
+// What is a callback function?
+
+// 2 Mock Interview questions (main dunga!)

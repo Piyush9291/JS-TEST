@@ -1,0 +1,156 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>JAVA SCRIPT TEST</h1>
+</body>
+<script src="ans.js"></script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="script.js">
+</head>
+
+<body>
+    <button id="btn">Get text</button>
+    <h1 id="text"></h1>
+    <h2 id="email"></h2>
+
+    <script>
+            let url = "https://jsonplaceholder.typicode.com/users"
+         const dataa  = document.querySelector("#text")
+         const button = document.querySelector("#btn")
+         const email = document.querySelector("#email")
+
+           const getfacts = async() => {
+                 let respose = await fetch(url);
+                 let data = await respose.json();
+                dataa.innerText = data[0].name
+                email.innerText = data[0].email
+           }
+        button.addEventListener("click" , getfacts)
+
+        function sayhellow() {
+            console.log("Hellow")
+        }
+
+        function sayhi() {
+            console.log("Hii")
+        }
+
+        function call(num, num2 , Callback) {
+            console.log(num + num2)
+            Callback();
+        }
+        call(10, 20 ,sayhellow);
+
+        call(10, 40 ,sayhi);
+
+
+        call(10, 20 , function(){
+           console.log("hi i am call back function")
+        })
+
+        function greet(name, callback) {
+            console.log("Hello, " + name);
+            callback();
+        }
+
+        function sayGoodbye() {
+            console.log("Goodbye!");
+        }
+
+        greet("Alice", sayGoodbye);
+
+let numbers = [1, 2, 1 ,2, 3, 4, 5];
+
+let name = "hellow"
+console.log(name.slice(1))
+
+let duplicate = new Set(numbers)
+console.log(duplicate)
+ 
+let smallest = Math.min(...numbers)
+let largest = Math.max(...numbers)
+
+console.log(smallest , largest)
+
+
+let name = "madam"
+
+let ans = name.split("").reverse().join("");
+console.log(ans)
+
+    </script>
+ </body>
+</html> 
+ -->
+
+
+ <!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Data Display</title>
+</head>
+<body>
+    <h2>Post Response:</h2>
+    <div id="response"></div>
+
+    <script>
+      async function sendData() {
+        try {
+          let response = await fetch("https://jsonplaceholder.typicode.com/posts", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+              title: "New Post",
+              body: "This is a new post",
+              userId: 1
+            })
+          });
+
+          let result = await response.json();
+          console.log("Response:", result);
+
+          // Show data in HTML
+          document.getElementById("response").innerHTML = `
+            <h3>Title: ${result.title}</h3>
+            <p>Body: ${result.body}</p>
+            <p><strong>Post ID:</strong> ${result.id}</p>
+          `;
+        } catch (error) {
+          console.error("Error sending data:", error);
+        }
+      }
+
+      sendData();
+    </script>
+</body>
+</html>  -->
