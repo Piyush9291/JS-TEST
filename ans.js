@@ -55,3 +55,49 @@
 // console.log(a)
 // console.log(b)
 // console.log(c)
+
+// /Question 6
+// Print numbers from 1 to 50 using loop.
+
+// for(let i = 1; i <= 50 ; i++){
+//      document.write(i)
+// }
+
+// Question 7
+//  Print all even numbers between 1 to 100.
+
+// let ans = []
+
+// for (let i = 0; i <= 100; i++) {
+//     if (i % 2 === 0) {
+//         ans.push(i)
+//     }
+// }
+// document.write(ans)
+
+// Question 8
+// Find factorial of a number.
+
+// let num = 5;
+// let fac = 1;
+
+
+// for(let i = 1; i <= num; i++){
+//     fac *= i
+// }
+// console.log(fac)
+
+
+// Question 9
+
+// Print a simple star triangle pattern:
+
+// let rows = 5;
+
+// for(let i = 0; i <= rows ; i++){
+
+//     for(let j = 1; j <= i; j++){
+//         document.write("*");
+//     }
+//     document.write("<br>");
+// }
